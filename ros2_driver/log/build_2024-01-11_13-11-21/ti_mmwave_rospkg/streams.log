@@ -1,0 +1,65 @@
+[0.064s] Invoking command in '/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/build/ti_mmwave_rospkg': AMENT_PREFIX_PATH=/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg_msgs:/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg_msgs:/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg_msgs/lib:/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/serial/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/build/ti_mmwave_rospkg -- -j12 -l12
+[0.111s] [35m[1mConsolidate compiler generated dependencies of target mmwave[0m
+[0.111s] [35m[1mConsolidate compiler generated dependencies of target ConfigParameterServer[0m
+[0.132s] [ 25%] Built target ConfigParameterServer
+[0.133s] [ 33%] Built target mmwave
+[0.144s] [35m[1mConsolidate compiler generated dependencies of target mmWaveQuickConfig[0m
+[0.144s] [35m[1mConsolidate compiler generated dependencies of target mmWaveCommSrv[0m
+[0.145s] [35m[1mConsolidate compiler generated dependencies of target ParameterParser[0m
+[0.145s] [35m[1mConsolidate compiler generated dependencies of target DataHandlerClass[0m
+[0.167s] [ 66%] Built target ParameterParser
+[0.167s] [ 66%] Built target mmWaveCommSrv
+[0.167s] [ 83%] Built target mmWaveQuickConfig
+[0.190s] [100%] Built target DataHandlerClass
+[0.203s] Invoked command in '/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/build/ti_mmwave_rospkg' returned '0': AMENT_PREFIX_PATH=/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg_msgs:/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg_msgs:/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg_msgs/lib:/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/serial/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/build/ti_mmwave_rospkg -- -j12 -l12
+[0.246s] Invoking command in '/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/build/ti_mmwave_rospkg': AMENT_PREFIX_PATH=/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg_msgs:/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg_msgs:/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg_msgs/lib:/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/serial/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/build/ti_mmwave_rospkg
+[0.253s] -- Install configuration: ""
+[0.253s] -- Up-to-date: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/environment/library_path.sh
+[0.254s] -- Up-to-date: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/environment/library_path.dsv
+[0.254s] -- Up-to-date: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/lib/libmmwave.so
+[0.254s] -- Up-to-date: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/lib/ti_mmwave_rospkg/ConfigParameterServer
+[0.254s] -- Up-to-date: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch
+[0.254s] -- Up-to-date: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/6843AOP_Tracking.py
+[0.255s] -- Up-to-date: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/__pycache__
+[0.255s] -- Up-to-date: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/__pycache__/6432_Occupancy.cpython-310.pyc
+[0.255s] -- Up-to-date: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/__pycache__/6432_Standard_Uncompressed.cpython-310.pyc
+[0.255s] -- Up-to-date: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/__pycache__/6843ISK_Standard.cpython-310.pyc
+[0.255s] -- Up-to-date: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/__pycache__/6843ISK_Occupany.cpython-310.pyc
+[0.255s] -- Up-to-date: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/__pycache__/6432_Standard_Compressed.cpython-310.pyc
+[0.255s] -- Up-to-date: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/__pycache__/6843ISK_Tracking.cpython-310.pyc
+[0.255s] -- Up-to-date: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/__pycache__/6843ISK_Occupancy.cpython-310.pyc
+[0.256s] -- Up-to-date: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/__pycache__/test_launch.cpython-310.pyc
+[0.256s] -- Installing: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/6843AOP_Standard.py
+[0.256s] -- Up-to-date: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/rviz.rviz
+[0.256s] -- Up-to-date: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/rviz_launch.py
+[0.256s] -- Up-to-date: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/config
+[0.256s] -- Up-to-date: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/config/global_params.yaml
+[0.256s] -- Up-to-date: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/cfg
+[0.256s] -- Up-to-date: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/cfg/6843AOP_Standard.cfg
+[0.256s] -- Up-to-date: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/cfg/6843AOP_Tracking.cfg
+[0.256s] -- Up-to-date: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/lib/ti_mmwave_rospkg/mmWaveCommSrv
+[0.256s] -- Up-to-date: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/lib/ti_mmwave_rospkg/mmWaveQuickConfig
+[0.256s] -- Up-to-date: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/lib/ti_mmwave_rospkg/ParameterParser
+[0.257s] -- Up-to-date: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/lib/ti_mmwave_rospkg/DataHandlerClass
+[0.257s] -- Up-to-date: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/include/
+[0.257s] -- Up-to-date: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/include//DataHandlerClass.h
+[0.257s] -- Up-to-date: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/include//mmWave.h
+[0.257s] -- Up-to-date: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ament_index/resource_index/package_run_dependencies/ti_mmwave_rospkg
+[0.257s] -- Up-to-date: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ament_index/resource_index/parent_prefix_path/ti_mmwave_rospkg
+[0.257s] -- Up-to-date: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/environment/ament_prefix_path.sh
+[0.258s] -- Up-to-date: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/environment/ament_prefix_path.dsv
+[0.258s] -- Up-to-date: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/environment/path.sh
+[0.258s] -- Up-to-date: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/environment/path.dsv
+[0.258s] -- Up-to-date: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/local_setup.bash
+[0.258s] -- Up-to-date: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/local_setup.sh
+[0.258s] -- Up-to-date: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/local_setup.zsh
+[0.258s] -- Up-to-date: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/local_setup.dsv
+[0.258s] -- Installing: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/package.dsv
+[0.258s] -- Up-to-date: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ament_index/resource_index/packages/ti_mmwave_rospkg
+[0.259s] -- Up-to-date: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.259s] -- Up-to-date: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.259s] -- Up-to-date: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/cmake/ament_cmake_export_libraries-extras.cmake
+[0.259s] -- Up-to-date: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/cmake/ti_mmwave_rospkgConfig.cmake
+[0.259s] -- Up-to-date: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/cmake/ti_mmwave_rospkgConfig-version.cmake
+[0.260s] -- Up-to-date: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/package.xml
+[0.260s] Invoked command in '/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/build/ti_mmwave_rospkg' returned '0': AMENT_PREFIX_PATH=/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg_msgs:/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg_msgs:/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg_msgs/lib:/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/serial/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/build/ti_mmwave_rospkg

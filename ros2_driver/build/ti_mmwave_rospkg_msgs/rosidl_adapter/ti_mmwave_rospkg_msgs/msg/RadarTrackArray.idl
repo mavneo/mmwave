@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ti_mmwave_rospkg_msgs/msg/RadarTrackArray.msg
+// generated code does not contain a copyright notice
+
+#include "ti_mmwave_rospkg_msgs/msg/RadarTrackContents.idl"
+
+module ti_mmwave_rospkg_msgs {
+  module msg {
+    struct RadarTrackArray {
+      string frame_id;
+
+      uint32 stamp;
+
+      uint32 num_tracks;
+
+      sequence<ti_mmwave_rospkg_msgs::msg::RadarTrackContents> track;
+    };
+  };
+};

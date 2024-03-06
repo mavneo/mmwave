@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ti_mmwave_rospkg_msgs/srv/MmwaveCli.srv
+// generated code does not contain a copyright notice
+
+
+module ti_mmwave_rospkg_msgs {
+  module srv {
+    struct MmwaveCli_Request {
+      string comm;
+    };
+    struct MmwaveCli_Response {
+      string resp;
+    };
+  };
+};

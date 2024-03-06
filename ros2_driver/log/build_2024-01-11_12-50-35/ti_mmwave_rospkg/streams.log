@@ -1,0 +1,227 @@
+[0.071s] Invoking command in '/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/build/ti_mmwave_rospkg': CMAKE_PREFIX_PATH=/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg_msgs:/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/serial:/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg:/opt/ros/humble LD_LIBRARY_PATH=/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg_msgs/lib:/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/serial/lib:/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/src/ti_mmwave_rospkg -DCMAKE_INSTALL_PREFIX=/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg
+[0.121s] -- The C compiler identification is GNU 11.4.0
+[0.180s] -- The CXX compiler identification is GNU 11.4.0
+[0.187s] -- Detecting C compiler ABI info
+[0.263s] -- Detecting C compiler ABI info - done
+[0.271s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.271s] -- Detecting C compile features
+[0.272s] -- Detecting C compile features - done
+[0.275s] -- Detecting CXX compiler ABI info
+[0.363s] -- Detecting CXX compiler ABI info - done
+[0.371s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.371s] -- Detecting CXX compile features
+[0.371s] -- Detecting CXX compile features - done
+[0.374s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.532s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.610s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[0.650s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.655s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.663s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.677s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.697s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.775s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.777s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.879s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.907s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.960s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.969s] -- Looking for pthread.h
+[1.039s] -- Looking for pthread.h - found
+[1.039s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.109s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.110s] -- Found Threads: TRUE  
+[1.277s] -- Found rclcpp_components: 16.0.7 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.349s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.487s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.620s] -- Found tf2_geometry_msgs: 0.25.5 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.635s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.637s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.637s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.942s] -- Found ti_mmwave_rospkg_msgs: 1.0.0 (/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg_msgs/share/ti_mmwave_rospkg_msgs/cmake)
+[1.966s] -- Found serial: 1.2.1 (/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/serial/share/serial/cmake)
+[1.969s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.978s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[2.002s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+[2.016s] -- Checking for module 'eigen3'
+[2.027s] --   Found eigen3, version 3.4.0
+[2.057s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[2.057s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.072s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[2.089s] -- Checking for module 'flann'
+[2.101s] --   Found flann, version 1.9.1
+[2.136s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[2.136s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[2.170s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[2.175s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[2.304s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[2.304s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[2.306s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[2.314s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[2.331s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[2.342s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[2.426s] -- Found X11: /usr/include   
+[2.426s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[2.497s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[2.497s] -- Looking for gethostbyname
+[2.564s] -- Looking for gethostbyname - found
+[2.564s] -- Looking for connect
+[2.630s] -- Looking for connect - found
+[2.631s] -- Looking for remove
+[2.700s] -- Looking for remove - found
+[2.700s] -- Looking for shmat
+[2.775s] -- Looking for shmat - found
+[2.775s] -- Looking for IceConnectionNumber in ICE
+[2.845s] -- Looking for IceConnectionNumber in ICE - found
+[2.924s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[2.926s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[2.928s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[2.929s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[2.942s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[2.946s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[2.950s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[2.955s] -- Found utf8cpp: /usr/include/utf8cpp  
+[3.031s] -- Checking for module 'libusb-1.0'
+[3.045s] --   Found libusb-1.0, version 1.0.25
+[3.078s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[3.079s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[3.079s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.132s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[3.132s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.132s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[3.282s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[3.288s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.294s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.436s] -- Found Qhull version 8.0.2
+[3.583s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.722s] -- looking for PCL_COMMON
+[3.723s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[3.723s] -- looking for PCL_KDTREE
+[3.724s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[3.724s] -- looking for PCL_OCTREE
+[3.725s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[3.725s] -- looking for PCL_SEARCH
+[3.726s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[3.726s] -- looking for PCL_SAMPLE_CONSENSUS
+[3.727s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[3.727s] -- looking for PCL_FILTERS
+[3.728s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[3.728s] -- looking for PCL_2D
+[3.728s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[3.728s] -- looking for PCL_GEOMETRY
+[3.728s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[3.729s] -- looking for PCL_IO
+[3.729s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[3.729s] -- looking for PCL_FEATURES
+[3.730s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[3.730s] -- looking for PCL_ML
+[3.731s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[3.731s] -- looking for PCL_SEGMENTATION
+[3.732s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[3.732s] -- looking for PCL_VISUALIZATION
+[3.733s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[3.733s] -- looking for PCL_SURFACE
+[3.734s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[3.734s] -- looking for PCL_REGISTRATION
+[3.735s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[3.735s] -- looking for PCL_KEYPOINTS
+[3.736s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[3.736s] -- looking for PCL_TRACKING
+[3.737s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[3.737s] -- looking for PCL_RECOGNITION
+[3.738s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[3.738s] -- looking for PCL_STEREO
+[3.739s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[3.739s] -- looking for PCL_APPS
+[3.740s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[3.741s] -- looking for PCL_IN_HAND_SCANNER
+[3.741s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[3.741s] -- looking for PCL_MODELER
+[3.741s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[3.742s] -- looking for PCL_POINT_CLOUD_EDITOR
+[3.742s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[3.742s] -- looking for PCL_OUTOFCORE
+[3.743s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[3.743s] -- looking for PCL_PEOPLE
+[3.744s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[3.744s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL (Required is at least version "1.7.5") 
+[3.746s] -- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)
+[3.962s] -- Configuring done
+[4.009s] -- Generating done
+[4.012s] -- Build files have been written to: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/build/ti_mmwave_rospkg
+[4.029s] Invoked command in '/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/build/ti_mmwave_rospkg' returned '0': CMAKE_PREFIX_PATH=/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg_msgs:/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/serial:/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg:/opt/ros/humble LD_LIBRARY_PATH=/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg_msgs/lib:/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/serial/lib:/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/src/ti_mmwave_rospkg -DCMAKE_INSTALL_PREFIX=/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg
+[4.032s] Invoking command in '/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/build/ti_mmwave_rospkg': CMAKE_PREFIX_PATH=/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg_msgs:/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/serial:/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg:/opt/ros/humble LD_LIBRARY_PATH=/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg_msgs/lib:/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/serial/lib:/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/build/ti_mmwave_rospkg -- -j12 -l12
+[4.082s] [ 16%] [32mBuilding CXX object CMakeFiles/mmwave.dir/src/ParameterParser.cpp.o[0m
+[4.082s] [ 16%] [32mBuilding CXX object CMakeFiles/ConfigParameterServer.dir/src/ConfigParameterServer.cpp.o[0m
+[6.947s] [ 25%] [32m[1mLinking CXX executable ConfigParameterServer[0m
+[7.086s] [ 25%] Built target ConfigParameterServer
+[8.699s] [ 33%] [32m[1mLinking CXX shared library libmmwave.so[0m
+[8.887s] [ 33%] Built target mmwave
+[8.908s] [ 58%] [32mBuilding CXX object CMakeFiles/DataHandlerClass.dir/src/DataHandlerClass.cpp.o[0m
+[8.908s] [ 58%] [32mBuilding CXX object CMakeFiles/mmWaveCommSrv.dir/src/mmWaveCommSrv.cpp.o[0m
+[8.909s] [ 58%] [32mBuilding CXX object CMakeFiles/mmWaveQuickConfig.dir/src/mmWaveQuickConfig.cpp.o[0m
+[8.909s] [ 66%] [32mBuilding CXX object CMakeFiles/ParameterParser.dir/src/ParameterParser.cpp.o[0m
+[13.004s] [ 75%] [32m[1mLinking CXX executable mmWaveCommSrv[0m
+[13.241s] [ 75%] Built target mmWaveCommSrv
+[14.328s] [ 83%] [32m[1mLinking CXX executable ParameterParser[0m
+[14.586s] [ 83%] Built target ParameterParser
+[15.129s] [ 91%] [32m[1mLinking CXX executable mmWaveQuickConfig[0m
+[15.395s] [ 91%] Built target mmWaveQuickConfig
+[20.237s] [100%] [32m[1mLinking CXX executable DataHandlerClass[0m
+[20.539s] [100%] Built target DataHandlerClass
+[20.550s] Invoked command in '/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/build/ti_mmwave_rospkg' returned '0': CMAKE_PREFIX_PATH=/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg_msgs:/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/serial:/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg:/opt/ros/humble LD_LIBRARY_PATH=/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg_msgs/lib:/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/serial/lib:/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/build/ti_mmwave_rospkg -- -j12 -l12
+[20.590s] Invoking command in '/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/build/ti_mmwave_rospkg': CMAKE_PREFIX_PATH=/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg_msgs:/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/serial:/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg:/opt/ros/humble LD_LIBRARY_PATH=/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg_msgs/lib:/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/serial/lib:/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/build/ti_mmwave_rospkg
+[20.597s] -- Install configuration: ""
+[20.597s] -- Installing: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/environment/library_path.sh
+[20.597s] -- Installing: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/environment/library_path.dsv
+[20.597s] -- Installing: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/lib/libmmwave.so
+[20.600s] -- Set runtime path of "/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/lib/libmmwave.so" to ""
+[20.600s] -- Installing: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/lib/ti_mmwave_rospkg/ConfigParameterServer
+[20.600s] -- Set runtime path of "/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/lib/ti_mmwave_rospkg/ConfigParameterServer" to ""
+[20.601s] -- Installing: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch
+[20.601s] -- Installing: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/6843AOP_Tracking.py
+[20.601s] -- Installing: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/__pycache__
+[20.601s] -- Installing: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/__pycache__/6432_Occupancy.cpython-310.pyc
+[20.601s] -- Installing: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/__pycache__/6432_Standard_Uncompressed.cpython-310.pyc
+[20.601s] -- Installing: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/__pycache__/6843ISK_Standard.cpython-310.pyc
+[20.601s] -- Installing: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/__pycache__/6843ISK_Occupany.cpython-310.pyc
+[20.601s] -- Installing: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/__pycache__/6432_Standard_Compressed.cpython-310.pyc
+[20.601s] -- Installing: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/__pycache__/6843ISK_Tracking.cpython-310.pyc
+[20.601s] -- Installing: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/__pycache__/6843ISK_Occupancy.cpython-310.pyc
+[20.601s] -- Installing: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/__pycache__/test_launch.cpython-310.pyc
+[20.601s] -- Installing: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/6843AOP_Standard.py
+[20.602s] -- Installing: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/rviz.rviz
+[20.602s] -- Installing: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/rviz_launch.py
+[20.602s] -- Installing: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/config
+[20.602s] -- Installing: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/config/global_params.yaml
+[20.602s] -- Installing: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/cfg
+[20.602s] -- Installing: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/cfg/6843AOP_Standard.cfg
+[20.602s] -- Installing: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/cfg/6843AOP_Tracking.cfg
+[20.602s] -- Installing: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/lib/ti_mmwave_rospkg/mmWaveCommSrv
+[20.603s] -- Set runtime path of "/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/lib/ti_mmwave_rospkg/mmWaveCommSrv" to ""
+[20.603s] -- Installing: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/lib/ti_mmwave_rospkg/mmWaveQuickConfig
+[20.605s] -- Set runtime path of "/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/lib/ti_mmwave_rospkg/mmWaveQuickConfig" to ""
+[20.606s] -- Installing: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/lib/ti_mmwave_rospkg/ParameterParser
+[20.607s] -- Set runtime path of "/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/lib/ti_mmwave_rospkg/ParameterParser" to ""
+[20.608s] -- Installing: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/lib/ti_mmwave_rospkg/DataHandlerClass
+[20.610s] -- Set runtime path of "/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/lib/ti_mmwave_rospkg/DataHandlerClass" to ""
+[20.611s] -- Installing: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/include/
+[20.611s] -- Installing: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/include//DataHandlerClass.h
+[20.611s] -- Installing: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/include//mmWave.h
+[20.611s] -- Installing: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ament_index/resource_index/package_run_dependencies/ti_mmwave_rospkg
+[20.611s] -- Installing: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ament_index/resource_index/parent_prefix_path/ti_mmwave_rospkg
+[20.611s] -- Installing: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/environment/ament_prefix_path.sh
+[20.611s] -- Installing: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/environment/ament_prefix_path.dsv
+[20.612s] -- Installing: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/environment/path.sh
+[20.612s] -- Installing: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/environment/path.dsv
+[20.612s] -- Installing: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/local_setup.bash
+[20.612s] -- Installing: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/local_setup.sh
+[20.612s] -- Installing: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/local_setup.zsh
+[20.612s] -- Installing: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/local_setup.dsv
+[20.612s] -- Installing: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/package.dsv
+[20.613s] -- Installing: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ament_index/resource_index/packages/ti_mmwave_rospkg
+[20.613s] -- Installing: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.613s] -- Installing: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/cmake/ament_cmake_export_include_directories-extras.cmake
+[20.613s] -- Installing: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/cmake/ament_cmake_export_libraries-extras.cmake
+[20.613s] -- Installing: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/cmake/ti_mmwave_rospkgConfig.cmake
+[20.613s] -- Installing: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/cmake/ti_mmwave_rospkgConfig-version.cmake
+[20.614s] -- Installing: /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/package.xml
+[20.616s] Invoked command in '/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/build/ti_mmwave_rospkg' returned '0': CMAKE_PREFIX_PATH=/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg_msgs:/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/serial:/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg:/opt/ros/humble LD_LIBRARY_PATH=/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg_msgs/lib:/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/serial/lib:/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/install/ti_mmwave_rospkg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ashu/workspace/Obstacle-Avoidance/ros2_driver/build/ti_mmwave_rospkg

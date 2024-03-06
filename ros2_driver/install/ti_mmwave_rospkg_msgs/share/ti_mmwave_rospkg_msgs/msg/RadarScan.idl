@@ -1,0 +1,34 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ti_mmwave_rospkg_msgs/msg/RadarScan.msg
+// generated code does not contain a copyright notice
+
+
+module ti_mmwave_rospkg_msgs {
+  module msg {
+    struct RadarScan {
+      uint32 seq;
+
+      uint32 stamp;
+
+      string frame_id;
+
+      uint16 point_id;
+
+      float x;
+
+      float y;
+
+      float z;
+
+      float range;
+
+      float velocity;
+
+      uint16 doppler_bin;
+
+      float bearing;
+
+      float intensity;
+    };
+  };
+};

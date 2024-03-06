@@ -1,0 +1,29 @@
+{
+  "package_name": "ti_mmwave_rospkg_msgs",
+  "output_dir": "/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/build/ti_mmwave_rospkg_msgs/rosidl_typesupport_introspection_c/ti_mmwave_rospkg_msgs",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource",
+  "idl_tuples": [
+    "/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/build/ti_mmwave_rospkg_msgs/rosidl_adapter/ti_mmwave_rospkg_msgs:msg/RadarScan.idl",
+    "/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/build/ti_mmwave_rospkg_msgs/rosidl_adapter/ti_mmwave_rospkg_msgs:msg/RadarOccupancy.idl",
+    "/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/build/ti_mmwave_rospkg_msgs/rosidl_adapter/ti_mmwave_rospkg_msgs:msg/RadarTrackArray.idl",
+    "/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/build/ti_mmwave_rospkg_msgs/rosidl_adapter/ti_mmwave_rospkg_msgs:msg/RadarTrackContents.idl",
+    "/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/build/ti_mmwave_rospkg_msgs/rosidl_adapter/ti_mmwave_rospkg_msgs:msg/RadarPointTrackID.idl",
+    "/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/build/ti_mmwave_rospkg_msgs/rosidl_adapter/ti_mmwave_rospkg_msgs:srv/MmwaveCli.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_introspection_c/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/idl__rosidl_typesupport_introspection_c.h.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/idl__type_support.c.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/msg__rosidl_typesupport_introspection_c.h.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/msg__type_support.c.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em",
+    "/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/build/ti_mmwave_rospkg_msgs/rosidl_adapter/ti_mmwave_rospkg_msgs/msg/RadarScan.idl",
+    "/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/build/ti_mmwave_rospkg_msgs/rosidl_adapter/ti_mmwave_rospkg_msgs/msg/RadarOccupancy.idl",
+    "/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/build/ti_mmwave_rospkg_msgs/rosidl_adapter/ti_mmwave_rospkg_msgs/msg/RadarTrackArray.idl",
+    "/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/build/ti_mmwave_rospkg_msgs/rosidl_adapter/ti_mmwave_rospkg_msgs/msg/RadarTrackContents.idl",
+    "/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/build/ti_mmwave_rospkg_msgs/rosidl_adapter/ti_mmwave_rospkg_msgs/msg/RadarPointTrackID.idl",
+    "/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/build/ti_mmwave_rospkg_msgs/rosidl_adapter/ti_mmwave_rospkg_msgs/srv/MmwaveCli.idl"
+  ]
+}

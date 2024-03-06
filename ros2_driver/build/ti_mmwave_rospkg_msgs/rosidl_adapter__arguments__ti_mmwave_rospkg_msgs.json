@@ -1,0 +1,11 @@
+{
+  "package_name": "ti_mmwave_rospkg_msgs",
+  "non_idl_tuples": [
+    "/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/src/ti_mmwave_rospkg_msgs:msg/RadarScan.msg",
+    "/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/src/ti_mmwave_rospkg_msgs:msg/RadarOccupancy.msg",
+    "/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/src/ti_mmwave_rospkg_msgs:msg/RadarTrackArray.msg",
+    "/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/src/ti_mmwave_rospkg_msgs:msg/RadarTrackContents.msg",
+    "/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/src/ti_mmwave_rospkg_msgs:msg/RadarPointTrackID.msg",
+    "/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/src/ti_mmwave_rospkg_msgs:srv/MmwaveCli.srv"
+  ]
+}

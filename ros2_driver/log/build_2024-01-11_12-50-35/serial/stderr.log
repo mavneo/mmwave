@@ -1,0 +1,8 @@
+[33mCMake Warning (dev) at CMakeLists.txt:26 (target_sources):
+  Policy CMP0076 is not set: target_sources() command converts relative paths
+  to absolute.  Run "cmake --help-policy CMP0076" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+  An interface source of target "serial" has a relative path.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m

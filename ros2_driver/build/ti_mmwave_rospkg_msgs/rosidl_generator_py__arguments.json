@@ -1,0 +1,34 @@
+{
+  "package_name": "ti_mmwave_rospkg_msgs",
+  "output_dir": "/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/build/ti_mmwave_rospkg_msgs/rosidl_generator_py/ti_mmwave_rospkg_msgs",
+  "template_dir": "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource",
+  "idl_tuples": [
+    "/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/build/ti_mmwave_rospkg_msgs/rosidl_adapter/ti_mmwave_rospkg_msgs:msg/RadarScan.idl",
+    "/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/build/ti_mmwave_rospkg_msgs/rosidl_adapter/ti_mmwave_rospkg_msgs:msg/RadarOccupancy.idl",
+    "/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/build/ti_mmwave_rospkg_msgs/rosidl_adapter/ti_mmwave_rospkg_msgs:msg/RadarTrackArray.idl",
+    "/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/build/ti_mmwave_rospkg_msgs/rosidl_adapter/ti_mmwave_rospkg_msgs:msg/RadarTrackContents.idl",
+    "/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/build/ti_mmwave_rospkg_msgs/rosidl_adapter/ti_mmwave_rospkg_msgs:msg/RadarPointTrackID.idl",
+    "/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/build/ti_mmwave_rospkg_msgs/rosidl_adapter/ti_mmwave_rospkg_msgs:srv/MmwaveCli.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/__init__.py",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/generate_py_impl.py",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_action_pkg_typesupport_entry_point.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_action.py.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_idl_pkg_typesupport_entry_point.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_idl_support.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_idl.py.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_msg_pkg_typesupport_entry_point.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_msg_support.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
+    "/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/build/ti_mmwave_rospkg_msgs/rosidl_adapter/ti_mmwave_rospkg_msgs/msg/RadarScan.idl",
+    "/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/build/ti_mmwave_rospkg_msgs/rosidl_adapter/ti_mmwave_rospkg_msgs/msg/RadarOccupancy.idl",
+    "/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/build/ti_mmwave_rospkg_msgs/rosidl_adapter/ti_mmwave_rospkg_msgs/msg/RadarTrackArray.idl",
+    "/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/build/ti_mmwave_rospkg_msgs/rosidl_adapter/ti_mmwave_rospkg_msgs/msg/RadarTrackContents.idl",
+    "/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/build/ti_mmwave_rospkg_msgs/rosidl_adapter/ti_mmwave_rospkg_msgs/msg/RadarPointTrackID.idl",
+    "/home/ashu/workspace/Obstacle-Avoidance/ros2_driver/build/ti_mmwave_rospkg_msgs/rosidl_adapter/ti_mmwave_rospkg_msgs/srv/MmwaveCli.idl"
+  ]
+}
